@@ -1,0 +1,759 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/* nav part start */
+
+nav{
+    background-color: #1C1E53;
+    padding: 20px 0 !important;
+}
+
+.menu_bg ul li{
+    padding: 0 12px;
+}
+
+.menu_bg ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFFF !important;
+}
+
+.menu_bg .nav_anchore a{
+    border: 1px solid #F4F6FC33;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.menu_bg .nav_anchore a:hover{
+    border: 1px solid transparent;
+    background-color: #FCD980;
+    color: #1B1C2B;
+}
+
+/* nav part end */
+
+/* Banner part Start */
+
+#banner{
+    padding: 90px 0;
+}
+
+.bannner_left h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #282938;
+    padding-top: 20px;
+}
+
+.bannner_left h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #282938;
+    padding: 15px 0;
+    line-height: 60px;
+}
+
+.bannner_left p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: #282938;
+    padding-right: 180px;
+    line-height: 23px;
+    padding-top: 10px;
+
+}
+
+/* Banner part end */
+
+/* Goal part start */
+
+.container2{
+    background-color: #F4F5F5;
+    padding: 50px 50px;
+}
+
+.goal_left h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #282938;
+}
+
+.goal_left h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #282938;
+    padding: 10px 0;
+}
+
+.goal_left p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+.goal_right h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #282938;
+    padding-top: 32px;
+    padding-bottom: 10px;
+}
+
+.goal_right p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+/* Goal part end */
+
+/* process part start */
+
+#process{
+    padding: 70px 0;
+}
+
+.process_head h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #282938;
+    padding-bottom: 30px;
+}
+
+.process_img img{
+    padding-right: 4px;
+}
+.process_text h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #282938;
+    padding-top: 20px;
+}
+
+.process_text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #282938;
+    opacity: 0.7;
+    padding-top: 10px;
+}
+
+/* process part end */
+
+/* Inspire part start */
+
+#inspire{
+    background-color: #EEF4FA;
+    padding: 90px 0;
+}
+
+.inspire_left h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #282938;
+    padding-top: 30px;
+}
+
+.inspire_left h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #282938;
+    padding: 15px 0;
+}
+
+.inspire_left p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+.inspire_left2 img{
+    padding-top: 80px;
+}
+
+.inspire_right2 h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #282938;
+    padding-top: 130px;
+}
+
+.inspire_right2 h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #282938;
+    padding: 15px 0;
+}
+
+.inspire_right2 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+/* Inspire part end */
+
+/* Benifit part start */
+
+#benefit{
+    padding: 80px 0;
+}
+
+.benefit_head h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #282938;
+    padding-bottom: 30px;
+}
+
+.benefit_item{
+    background-color: #F4F6FC;
+    padding: 35px 30px;
+    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.benefit_item h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #282938;
+    padding-top: 15px;
+}
+
+.benefit_item p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+.benefit_logo3 img{
+    width: 80%;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+/* Benifit part end */
+
+/* Team part strat */
+
+#team{
+    padding: 80px 0;
+    background-color: #F4F6FC;
+}
+
+.team_head h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    color: #282938;
+}
+
+.team_item{
+    background-color: #fff;
+    position: relative;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+.about_overlay{
+    position: absolute;
+    left: 0;
+    top: 32px;
+    width: 100%;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    opacity: 0;
+}
+
+.team_item:hover .about_overlay{
+    opacity: 1;
+}
+
+.about_icon{
+    position: absolute;
+    left: 50%;
+    top: 155px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    opacity: 0;
+}
+
+.team_item:hover .about_icon{
+    opacity: 1;
+}
+.about_text h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #282938;
+    padding-top: 20px;
+}
+
+.about_text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+/* Team part end */
+
+/* Footer part start */
+
+footer{
+    padding-top: 70px;
+    background-color: #1C1E53;
+
+}
+
+.footer_hd_left p{
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 70px;
+}
+.footer_inner{
+    background-color: #FCD980;
+    padding: 5px 40px;
+}
+
+.footer_inner h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+    padding-top: 20px;
+}
+
+.footer_inner span{
+    padding-left: 90px;
+}
+
+.footer_inner p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #282938;
+    opacity: 0.8;
+}
+
+.footer_inner1 span{
+    padding-left: 30px;
+}
+
+.footer_hd_right h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.footer_hd_right p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    opacity: 0.8;
+    color: #F4F6FC;
+    padding: 10px 0;
+}
+
+.footer_icon img{
+    padding-right: 20px;
+}
+
+#footer2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.footer2_left P{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #282938;
+}
+
+.footer2_right ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer2_right ul li a{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282938;
+}
+
+/* Footer part end */
+
+
+/* Responsive Part start */
+
+@media(max-width:575px){
+    /* nav */
+    .navbar-toggler i{
+     color: #FFF;
+     font-size: 35px;
+     transition: .4s;
+     -webkit-transition: .4s;
+     -moz-transition: .4s;
+     -ms-transition: .4s;
+     -o-transition: .4s;
+ }
+    .navbar-toggler i:hover{
+     color: #FCD980;
+    }
+    .navbar {
+     --bs-navbar-toggler-focus-width: 0;
+     --bs-navbar-toggler-border-color: none;
+     }
+    /* nav */
+
+    /* Banner */
+    #banner {
+        padding: 30px 0;
+    }
+    .bannner_left{
+        text-align: center;
+    }
+    .bannner_left p {
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    /* Banner */
+
+    /* Goal */
+    .goal_left{
+        text-align: center;
+    }
+    .goal_right{
+        text-align: center;
+    }
+    /* Goal */
+
+    /* Inspire */
+    #inspire {
+        padding: 30px 0;
+    }
+    .inspire_left{
+        text-align: center;
+    }
+    .inspire_right2{
+        text-align: center;
+    }
+    /* Inspire */
+
+    /* Benefit */
+    .benefit_item {
+        padding: 20px 10px;
+    }
+    .benefit_logo3 img {
+        width: 100%;
+        padding-left: 0px;
+    }
+    /* Benefit */
+
+    /* Team */
+    #team {
+        padding: 40px 0;
+    }
+    /* Team */
+ 
+
+ 
+    /* footer */
+    footer {
+     padding-bottom: 30px;
+ }
+    .footer_hd_right h2 {
+     padding-top: 20px;
+ }
+    /* footer */
+ 
+    /* footer2 */
+    .footer2_left{
+     text-align: center;
+    }
+    .footer2_right{
+     text-align: center;
+    }
+    /* footer2 */
+ }
+ 
+ @media(min-width:576px) and (max-width:767px){
+        /* nav */
+    .navbar-toggler i{
+     color: #FFF;
+     font-size: 35px;
+     transition: .4s;
+     -webkit-transition: .4s;
+     -moz-transition: .4s;
+     -ms-transition: .4s;
+     -o-transition: .4s;
+ }
+    .navbar-toggler i:hover{
+     color: #FCD980;
+    }
+    .navbar {
+     --bs-navbar-toggler-focus-width: 0;
+     --bs-navbar-toggler-border-color: none;
+     }
+    /* nav */
+
+    /* Banner */
+    #banner {
+        padding: 30px 0;
+    }
+    .bannner_left{
+        text-align: center;
+    }
+    .bannner_left p {
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    /* Banner */
+
+    /* Goal */
+    .goal_left{
+        text-align: center;
+    }
+    .goal_right{
+        text-align: center;
+    }
+    /* Goal */
+
+    /* Inspire */
+    #inspire {
+        padding: 30px 0;
+    }
+    .inspire_left{
+        text-align: center;
+    }
+    .inspire_right2{
+        text-align: center;
+    }
+    /* Inspire */
+
+    /* Benefit */
+    .benefit_item {
+        padding: 20px 10px;
+    }
+    .benefit_logo3 img {
+        width: 100%;
+        padding-left: 0px;
+    }
+    /* Benefit */
+
+    /* Team */
+    #team {
+        padding: 40px 0;
+    }
+    /* Team */
+ 
+    /* footer */
+    footer {
+     padding-bottom: 30px;
+ }
+    .footer_hd_right h2 {
+     padding-top: 20px;
+ }
+    /* footer */
+ 
+    /* footer2 */
+    .footer2_left{
+     text-align: center;
+    }
+    .footer2_right{
+     text-align: center;
+    }
+    /* footer2 */
+ }
+ 
+ @media(min-width:768px) and (max-width:991px){
+      /* nav */
+      .navbar-toggler i{
+         color: #FFF;
+         font-size: 35px;
+         transition: .4s;
+         -webkit-transition: .4s;
+         -moz-transition: .4s;
+         -ms-transition: .4s;
+         -o-transition: .4s;
+     }
+        .navbar-toggler i:hover{
+         color: #FCD980;
+        }
+        .navbar {
+         --bs-navbar-toggler-focus-width: 0;
+         --bs-navbar-toggler-border-color: none;
+         }
+        /* nav */
+        
+         /* Banner */
+    #banner {
+        padding: 30px 0;
+    }
+    .bannner_left{
+        text-align: center;
+    }
+    .bannner_left p {
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    /* Banner */
+
+    /* Goal */
+    .goal_left{
+        text-align: center;
+    }
+    .goal_right{
+        text-align: center;
+    }
+    /* Goal */
+
+    /* Inspire */
+    #inspire {
+        padding: 30px 0;
+    }
+    .inspire_left h5 {
+        padding-top: 0px;
+    }
+    .inspire_left h3 {
+        font-size: 26px;
+        padding: 0px 0;
+    }
+    .inspire_right2 h5 {
+        padding-top: 75px;
+    }
+    .inspire_right2 h3 {
+        font-size: 22px;
+        padding: 0px 0;
+    }
+    /* Inspire */
+
+    /* Benefit */
+    .benefit_item {
+        padding: 20px 10px;
+    }
+    .benefit_logo3 img {
+        width: 100%;
+        padding-left: 0px;
+    }
+    /* Benefit */
+
+    /* Team */
+    #team {
+        padding: 40px 0;
+    }
+    /* Team */
+     
+    /* footer */
+        footer {
+         padding-bottom: 30px;
+     }
+        .footer_hd_right h2 {
+         padding-top: 20px;
+     }
+        /* footer */
+     
+        /* footer2 */
+        .footer2_left{
+         text-align: center;
+        }
+        .footer2_right{
+         text-align: center;
+        }
+    /* footer2 */
+ }
+ 
+ @media(min-width:992px) and (max-width:1199px){
+ 
+     /* footer2 */
+     .footer2_right ul li {
+         padding: 0 4px;
+     }
+     /* footer2 */
+ 
+ }
+ 
+ @media(min-width:1200px) and (max-width:1399px){
+   
+ }
+ 
+ @media(min-width:1400px){
+ 
+ }
+ 
+ /* Responsive part end */
